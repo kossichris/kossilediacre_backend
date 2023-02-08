@@ -5,7 +5,7 @@ const ormconfig: ConnectionOptions = {
   host: 'localhost',
   port: 5432,
   username: 'postgres',
-  password: '123',
+  password: 'postgres',
   database: 'kossilediacre',
   entities: [__dirname + '/**/*.entity{.ts,js}'],
   migrations: [__dirname + '/migrations/**/*{.ts,.js}'],
