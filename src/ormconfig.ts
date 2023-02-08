@@ -2,7 +2,7 @@ import { ConnectionOptions } from 'typeorm';
 
 const ormconfig: ConnectionOptions = {
   type: 'postgres',
-  host: '0.0.0.0',
+  host: 'postgresql',
   port: 5432,
   username: 'postgres',
   password: 'postgres',
